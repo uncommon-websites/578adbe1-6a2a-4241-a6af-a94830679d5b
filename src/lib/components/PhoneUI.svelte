@@ -20,99 +20,98 @@
     <!-- App Content -->
     <div class="flex-1 overflow-y-auto pt-12 px-6 pb-6 text-xs font-medium select-none scrollbar-hide">
       <!-- Header -->
-      <div class="flex justify-between items-baseline mb-6 mt-2">
-        <h2 class="text-3xl font-bold tracking-tight">Mon<span class="text-red-500 ml-0.5">•</span></h2>
-        <div class="text-gray-400 text-[10px] uppercase tracking-wide text-right leading-tight font-semibold">
-          December 9<br>2024
+      <div class="flex justify-between items-center mb-6 mt-2">
+        <h2 class="text-2xl font-bold tracking-tight">123 Crown St</h2>
+        <div class="w-8 h-8 rounded-full bg-gray-900 text-white flex items-center justify-center text-xs font-bold">
+          SC
         </div>
       </div>
 
-      <!-- Calendar Strip -->
-      <div class="flex justify-between mb-8 text-[10px] text-gray-400 font-semibold">
-        <div class="flex flex-col items-center gap-1.5">
-          <span class="w-7 h-7 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs">9</span>
-          <span class="text-black font-bold tracking-wide">MON</span>
+      <!-- Rent Card -->
+      <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-4 mb-6 border border-gray-200">
+        <div class="flex justify-between items-start mb-3">
+          <div>
+            <div class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold mb-1">Next Rent Due</div>
+            <div class="text-2xl font-bold">$2,800</div>
+          </div>
+          <div class="text-right">
+            <div class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold mb-1">Due Date</div>
+            <div class="text-sm font-bold">Jan 15</div>
+          </div>
         </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">10</span>
-          <span class="tracking-wide">TUE</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">11</span>
-          <span class="tracking-wide">WED</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">12</span>
-          <span class="tracking-wide">THU</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">13</span>
-          <span class="tracking-wide">FRI</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">14</span>
-          <span class="tracking-wide">SAT</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">15</span>
-          <span class="tracking-wide">SUN</span>
+        <div class="text-[10px] text-gray-600 font-medium">Your share: $700</div>
+      </div>
+
+      <!-- Housemates Section -->
+      <div class="mb-6">
+        <h3 class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold mb-3">Housemates (4)</h3>
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gray-900 text-white flex items-center justify-center text-[10px] font-bold">SC</div>
+              <span class="text-sm font-medium">Scott (You)</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">$700</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center text-[10px] font-bold">EM</div>
+              <span class="text-sm font-medium">Emma</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">$700</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center text-[10px] font-bold">JK</div>
+              <span class="text-sm font-medium">Jake</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">$700</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-7 h-7 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center text-[10px] font-bold">LM</div>
+              <span class="text-sm font-medium">Lily</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">$700</span>
+          </div>
         </div>
       </div>
 
-      <!-- List -->
-      <div class="space-y-5">
-        <!-- Item 1 -->
-        <div class="flex items-center gap-4">
-          <span class="text-red-500 text-lg leading-none">✻</span>
-          <span class="font-semibold text-sm">Daria's 20th Birthday</span>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="flex items-center gap-4 justify-between group">
-          <div class="flex items-center gap-4">
-            <span class="text-yellow-500 text-lg leading-none">☀</span>
-            <span class="text-sm font-medium">Wake up</span>
+      <!-- Bills Section -->
+      <div class="mb-6">
+        <h3 class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold mb-3">Upcoming Bills</h3>
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-5 h-5 rounded bg-yellow-100 flex items-center justify-center text-[10px]">⚡</div>
+              <span class="text-sm font-medium">Electricity</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">Jan 20</span>
           </div>
-          <span class="text-gray-300 font-medium">09:00</span>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[9px] font-serif italic">Aa</span>
-            <span class="text-sm font-medium">Design Crit</span>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <div class="w-5 h-5 rounded bg-blue-100 flex items-center justify-center text-[10px]">📶</div>
+              <span class="text-sm font-medium">Internet</span>
+            </div>
+            <span class="text-xs text-gray-500 font-medium">Jan 25</span>
           </div>
-          <span class="text-gray-300 font-medium">10:00</span>
         </div>
+      </div>
 
-        <!-- Item 4 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[10px] -rotate-90">✂</span>
-            <span class="text-sm font-medium">Haircut with Vincent</span>
+      <!-- Tasks Section -->
+      <div>
+        <h3 class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold mb-3">Household Tasks</h3>
+        <div class="space-y-2.5">
+          <div class="flex items-center gap-2.5">
+            <div class="w-5 h-5 rounded-full border-[1.5px] border-black flex items-center justify-center">
+              <div class="w-2 h-2 rounded-full bg-black"></div>
+            </div>
+            <span class="text-sm font-medium">Take out bins</span>
           </div>
-          <span class="text-gray-300 font-medium">13:00</span>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="flex items-center gap-4">
-          <span class="text-black border-[1.5px] border-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">✓</span>
-          <span class="text-sm font-medium line-through text-gray-400">Make pasta</span>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="flex items-center gap-4 text-gray-400">
-          <span class="border-[1.5px] border-dashed border-gray-300 rounded-full w-5 h-5"></span>
-          <span class="text-sm font-medium">Pushups x100</span>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="flex items-center gap-4 justify-between text-gray-400">
-          <div class="flex items-center gap-4">
-            <span class="text-purple-400 text-lg leading-none">☾</span>
-            <span class="text-black text-sm font-medium">Wind down</span>
+          <div class="flex items-center gap-2.5 text-gray-400">
+            <div class="w-5 h-5 rounded-full border-[1.5px] border-gray-300"></div>
+            <span class="text-sm font-medium">Buy toilet paper</span>
           </div>
-          <span class="text-gray-300 font-medium">21:00</span>
         </div>
       </div>
     </div>
