@@ -27,27 +27,23 @@
   <main class="flex flex-col items-center w-full">
     <!-- Hero Section -->
     <section class="flex flex-col items-center text-center pt-10 pb-12 px-4 max-w-4xl mx-auto">
-      <h2 class="text-sm font-semibold mb-6 text-primary-600">Sharehouse Admin, Simplified</h2>
+      <h2 class="text-sm font-semibold mb-6 text-primary-600 tracking-wide">The Future of Sharehouse Living</h2>
       
       <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-10">
         <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
-          <span>Run your</span>
-          <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-2xl align-middle mx-1">
-            <HouseIcon className="w-6 h-6 md:w-8 md:h-8" />
-          </span>
-          <span>sharehouse</span>
+          <span>Live together</span>
         </div>
         <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
           <span>without the</span>
-          <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-2xl align-middle mx-1">
+          <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl align-middle mx-1">
             <DollarIcon className="w-6 h-6 md:w-8 md:h-8" />
           </span>
-          <span>chaos</span>
+          <span>stress</span>
         </div>
       </h1>
 
-      <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl">
-        Upload your lease, invite your housemates, and let Homerun handle the rest. Fair splits, automated reminders, and zero arguments.
+      <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed">
+        Imagine a sharehouse where bills split themselves, reminders happen automatically, and everyone knows exactly what they owe. No arguments. No confusion. Just harmony.
       </p>
 
       <div class="mb-12">
@@ -58,14 +54,14 @@
       </div>
 
       <!-- Social Proof -->
-      <div class="flex flex-wrap justify-center gap-8 text-gray-400 text-xs font-medium">
+      <div class="flex flex-wrap justify-center gap-16 text-gray-400 text-xs font-medium">
         <div class="flex flex-col items-center leading-tight">
-          <span class="text-2xl font-bold text-black mb-1">2M+</span>
-          <span class="text-gray-500">Australian Sharehouses</span>
+          <span class="text-3xl font-bold text-black mb-2">2M+</span>
+          <span class="text-gray-500 text-sm">Sharehouses in Australia</span>
         </div>
         <div class="flex flex-col items-center leading-tight">
-          <span class="text-2xl font-bold text-black mb-1">$8B</span>
-          <span class="text-gray-500">Rental Admin Market</span>
+          <span class="text-3xl font-bold text-black mb-2">Zero</span>
+          <span class="text-gray-500 text-sm">Arguments about money</span>
         </div>
       </div>
     </section>
@@ -83,80 +79,119 @@
 
     <!-- Lifestyle Image Section -->
     <section class="w-full max-w-5xl mx-auto px-6 mb-32">
-      <div class="rounded-3xl overflow-hidden shadow-2xl">
+      <div class="rounded-3xl overflow-hidden">
         <img 
-          src="/generated/image-young-australian-housemates-sitting-toge-1765496313691-0.webp" 
-          alt="Young housemates collaborating on household admin"
+          src="/generated/image-young-housemates-laughing-together-in-a--1765501958639-0.webp" 
+          alt="Happy housemates enjoying stress-free living together"
           class="w-full h-auto"
         />
+      </div>
+      <div class="text-center mt-8 max-w-2xl mx-auto">
+        <p class="text-lg text-gray-600 leading-relaxed italic">
+          This is what sharehouse life looks like when the admin takes care of itself
+        </p>
       </div>
     </section>
 
     <!-- How It Works Section -->
-    <section class="w-full bg-gray-50 py-24 mb-32">
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-24 mb-32">
       <div class="max-w-3xl mx-auto px-6 text-center">
         <h2 class="text-sm font-semibold mb-6 text-primary-600 uppercase tracking-wide">How It Works</h2>
-        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight mb-12">
-          Three steps to stress-free sharehouse living
+        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
+          Three steps to complete peace of mind
         </h3>
+        <p class="text-lg text-gray-600 mb-16 max-w-2xl mx-auto">
+          Set it up once, then forget about the admin. Homerun runs in the background so you can focus on actually living together.
+        </p>
         
-        <div class="grid md:grid-cols-3 gap-8 text-left">
-          <div class="space-y-3">
-            <div class="w-12 h-12 bg-black text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">1</div>
+        <div class="grid md:grid-cols-3 gap-12 text-left">
+          <div class="space-y-4">
+            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">1</div>
             <h4 class="text-xl font-bold">Upload Your Lease</h4>
-            <p class="text-gray-600">Drop in your lease PDF and we'll extract all the important details automatically.</p>
+            <p class="text-gray-600 leading-relaxed">Drop in your lease PDF and watch as every detail extracts itself. No typing, no manual entry, no hassle.</p>
           </div>
           
-          <div class="space-y-3">
-            <div class="w-12 h-12 bg-black text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">2</div>
+          <div class="space-y-4">
+            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">2</div>
             <h4 class="text-xl font-bold">Invite Housemates</h4>
-            <p class="text-gray-600">Send a link to your housemates and they're instantly added to your shared dashboard.</p>
+            <p class="text-gray-600 leading-relaxed">One link brings everyone into the same dashboard. Instant transparency, zero confusion about who owes what.</p>
           </div>
           
-          <div class="space-y-3">
-            <div class="w-12 h-12 bg-black text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">3</div>
-            <h4 class="text-xl font-bold">Let Homerun Handle It</h4>
-            <p class="text-gray-600">Automated reminders, fair splits, and bill comparisons keep everything running smoothly.</p>
+          <div class="space-y-4">
+            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">3</div>
+            <h4 class="text-xl font-bold">Live Stress-Free</h4>
+            <p class="text-gray-600 leading-relaxed">Bills split automatically. Reminders arrive on time. Everyone knows their share. You get back to enjoying life together.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Features Text -->
-    <section class="max-w-4xl mx-auto px-6 pb-32 space-y-24 text-center">
-      <div class="space-y-6">
-        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl mb-4 shadow-sm">
-          <DocumentIcon className="w-8 h-8" />
+    <section class="max-w-5xl mx-auto px-6 pb-32 space-y-32 text-center">
+      <!-- Feature 1: Peace of Mind -->
+      <div class="space-y-8">
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl mb-4">
+          <DocumentIcon className="w-10 h-10" />
         </div>
-        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Upload your lease and we'll extract everything automatically
+        <h3 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight max-w-3xl mx-auto">
+          Never think about lease details again
         </h3>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          No more manual data entry. Homerun reads your lease PDF and sets up rent schedules, bond amounts, key dates, and house structure in seconds.
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Upload once and forget. Your rent schedule, bond amount, and key dates live in one place where everyone can see them. No more digging through emails or asking "when's rent due?"
         </p>
       </div>
 
-      <div class="space-y-6">
-        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl mb-4 shadow-sm">
-          <DollarIcon className="w-8 h-8" />
+      <!-- Lifestyle Image: Cooking Together -->
+      <div class="w-full max-w-5xl mx-auto">
+        <div class="rounded-3xl overflow-hidden">
+          <img 
+            src="/generated/image-group-of-diverse-young-adults-cooking-to-1765501926455-1.webp" 
+            alt="Housemates cooking together in harmony"
+            class="w-full h-auto"
+          />
         </div>
-        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Split bills fairly and save money on every expense
-        </h3>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Compare electricity, gas, and internet offers in your area. Track shared expenses automatically. Get discounts on household essentials through our subscription box.
+        <p class="text-center text-gray-500 mt-6 text-sm italic">
+          When the money stuff is handled, you can focus on what actually matters
         </p>
       </div>
 
-      <div class="space-y-10">
-        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl mb-4 shadow-sm">
-          <PeopleIcon className="w-8 h-8" />
+      <!-- Feature 2: Financial Harmony -->
+      <div class="space-y-8">
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl mb-4">
+          <DollarIcon className="w-10 h-10" />
         </div>
-        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Built for renters, by someone who lived the chaos
+        <h3 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight max-w-3xl mx-auto">
+          Money conversations without the awkwardness
         </h3>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Scott created Homerun after years of sharehouse frustration in Sydney. No more group chat confusion, missed payments, or unfair splits. Just a simple dashboard that works.
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Everyone sees exactly what they owe, when it's due, and who's paid. No more chasing people down or feeling uncomfortable asking for money. Just complete transparency and fairness.
+        </p>
+      </div>
+
+      <!-- Feature 3: Time Freedom -->
+      <div class="space-y-8">
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl mb-4">
+          <PeopleIcon className="w-10 h-10" />
+        </div>
+        <h3 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight max-w-3xl mx-auto">
+          Get your evenings and weekends back
+        </h3>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          No more spreadsheet updates, group chat marathons, or Sunday afternoon admin sessions. Homerun handles it all in the background so you can actually enjoy living together.
+        </p>
+      </div>
+
+      <!-- Lifestyle Image: Relaxing -->
+      <div class="w-full max-w-3xl mx-auto">
+        <div class="rounded-3xl overflow-hidden">
+          <img 
+            src="/generated/image-young-professional-relaxing-on-a-couch-w-1765501928950-2.webp" 
+            alt="Relaxed housemate enjoying stress-free living"
+            class="w-full h-auto"
+          />
+        </div>
+        <p class="text-center text-gray-500 mt-6 text-sm italic">
+          This is what stress-free sharehouse living feels like
         </p>
       </div>
     </section>
@@ -179,20 +214,20 @@
 
     <!-- Final CTA Section -->
     <section class="w-full max-w-4xl mx-auto px-6 pb-32 text-center">
-      <div class="space-y-8">
+      <div class="space-y-10">
         <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-          Ready to simplify your sharehouse?
+          Start living stress-free today
         </h2>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Join thousands of Australian renters who've ditched the spreadsheets and group chat chaos.
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Imagine coming home to a house where the bills are handled, everyone knows what they owe, and money never creates tension. That's not a dream. That's what happens when you use Homerun.
         </p>
-        <div class="pt-4">
+        <div class="pt-6">
           <Button>
             <Apple className="w-5 h-5" />
             <span class="text-base">Download for iOS</span>
           </Button>
         </div>
-        <p class="text-sm text-gray-500">Free to use. No credit card required.</p>
+        <p class="text-sm text-gray-500">Free forever. Set up in under 5 minutes.</p>
       </div>
     </section>
 
