@@ -11,14 +11,14 @@
 </script>
 
 <svelte:head>
-  <title>Homerun - Sharehouse Admin & Bill Splitting Made Simple</title>
-  <meta name="description" content="Upload your lease, invite your housemates, and let Homerun handle the rest. Fair splits, automated reminders, and zero arguments. Built for Australian sharehouses." />
-  <meta property="og:title" content="Homerun - Sharehouse Admin & Bill Splitting Made Simple" />
-  <meta property="og:description" content="Upload your lease, invite your housemates, and let Homerun handle the rest. Fair splits, automated reminders, and zero arguments." />
+  <title>Homerun - Live Stress-Free in Perfect Harmony</title>
+  <meta name="description" content="Imagine a sharehouse where bills split themselves, everyone pays on time, and there's never an awkward money conversation. That's the life Homerun creates." />
+  <meta property="og:title" content="Homerun - Live Stress-Free in Perfect Harmony" />
+  <meta property="og:description" content="Imagine a sharehouse where bills split themselves, everyone pays on time, and there's never an awkward money conversation. That's the life Homerun creates." />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Homerun - Sharehouse Admin & Bill Splitting Made Simple" />
-  <meta name="twitter:description" content="Upload your lease, invite your housemates, and let Homerun handle the rest. Fair splits, automated reminders, and zero arguments." />
+  <meta name="twitter:title" content="Homerun - Live Stress-Free in Perfect Harmony" />
+  <meta name="twitter:description" content="Imagine a sharehouse where bills split themselves, everyone pays on time, and there's never an awkward money conversation. That's the life Homerun creates." />
 </svelte:head>
 
 <div class="min-h-screen bg-white text-black font-sans selection:bg-gray-200">
@@ -185,8 +185,8 @@
       <div class="w-full max-w-3xl mx-auto">
         <div class="rounded-3xl overflow-hidden">
           <img 
-            src="/generated/image-young-professional-relaxing-on-a-couch-w-1765501928950-2.webp" 
-            alt="Relaxed housemate enjoying stress-free living"
+            src="/generated/image-group-of-housemates-having-coffee-on-a-s-1765501965968-2.webp" 
+            alt="Relaxed housemates enjoying stress-free living"
             class="w-full h-auto"
           />
         </div>
