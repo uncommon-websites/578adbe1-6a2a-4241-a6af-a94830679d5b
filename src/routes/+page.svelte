@@ -78,49 +78,54 @@
     </section>
 
     <!-- Lifestyle Image Section -->
-    <section class="w-full max-w-5xl mx-auto px-6 mb-32">
-      <div class="rounded-3xl overflow-hidden">
+    <section class="w-full max-w-6xl mx-auto px-6 mb-40">
+      <div class="rounded-[2.5rem] overflow-hidden ring-1 ring-gray-100 transform hover:scale-[1.01] transition-transform duration-700">
         <img 
           src="/generated/image-young-housemates-laughing-together-in-a--1765501958639-0.webp" 
           alt="Happy housemates enjoying stress-free living together"
           class="w-full h-auto"
         />
       </div>
-      <div class="text-center mt-8 max-w-2xl mx-auto">
-        <p class="text-lg text-gray-600 leading-relaxed italic">
+      <div class="text-center mt-10 max-w-2xl mx-auto">
+        <p class="text-xl text-gray-500 leading-relaxed font-light italic">
           This is what sharehouse life looks like when the admin takes care of itself
         </p>
       </div>
     </section>
 
     <!-- How It Works Section -->
-    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-24 mb-32">
-      <div class="max-w-3xl mx-auto px-6 text-center">
-        <h2 class="text-sm font-semibold mb-6 text-primary-600 uppercase tracking-wide">How It Works</h2>
-        <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
+    <section class="relative w-full py-32 mb-40 overflow-hidden">
+      <!-- Sophisticated gradient background -->
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50 via-white to-gray-50/30 -z-10"></div>
+      <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-bl from-primary-50/50 to-transparent rounded-full blur-3xl -z-10"></div>
+      <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-gray-100/50 to-transparent rounded-full blur-3xl -z-10"></div>
+      
+      <div class="max-w-5xl mx-auto px-6 text-center relative">
+        <h2 class="text-xs font-bold mb-8 text-primary-600 tracking-[0.2em] uppercase">How It Works</h2>
+        <h3 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-8 bg-gradient-to-br from-black via-gray-800 to-gray-600 bg-clip-text text-transparent">
           Three steps to complete peace of mind
         </h3>
-        <p class="text-lg text-gray-600 mb-16 max-w-2xl mx-auto">
+        <p class="text-xl text-gray-600 mb-20 max-w-3xl mx-auto font-light leading-relaxed">
           Set it up once, then forget about the admin. Homerun runs in the background so you can focus on actually living together.
         </p>
         
-        <div class="grid md:grid-cols-3 gap-12 text-left">
-          <div class="space-y-4">
-            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">1</div>
-            <h4 class="text-xl font-bold">Upload Your Lease</h4>
-            <p class="text-gray-600 leading-relaxed">Drop in your lease PDF and watch as every detail extracts itself. No typing, no manual entry, no hassle.</p>
+        <div class="grid md:grid-cols-3 gap-16 text-left">
+          <div class="space-y-5 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-black via-gray-800 to-gray-700 text-white rounded-3xl flex items-center justify-center font-bold text-2xl mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">1</div>
+            <h4 class="text-2xl font-bold">Upload your lease</h4>
+            <p class="text-gray-600 leading-relaxed text-lg">Drop in your lease PDF and watch as every detail extracts itself. No typing, no manual entry, no hassle.</p>
           </div>
           
-          <div class="space-y-4">
-            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">2</div>
-            <h4 class="text-xl font-bold">Invite Housemates</h4>
-            <p class="text-gray-600 leading-relaxed">One link brings everyone into the same dashboard. Instant transparency, zero confusion about who owes what.</p>
+          <div class="space-y-5 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white rounded-3xl flex items-center justify-center font-bold text-2xl mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">2</div>
+            <h4 class="text-2xl font-bold">Invite housemates</h4>
+            <p class="text-gray-600 leading-relaxed text-lg">One link brings everyone into the same dashboard. Instant transparency, zero confusion about who owes what.</p>
           </div>
           
-          <div class="space-y-4">
-            <div class="w-14 h-14 bg-gradient-to-br from-black to-gray-800 text-white rounded-2xl flex items-center justify-center font-bold text-xl mb-4">3</div>
-            <h4 class="text-xl font-bold">Live Stress-Free</h4>
-            <p class="text-gray-600 leading-relaxed">Bills split automatically. Reminders arrive on time. Everyone knows their share. You get back to enjoying life together.</p>
+          <div class="space-y-5 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-600 text-white rounded-3xl flex items-center justify-center font-bold text-2xl mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">3</div>
+            <h4 class="text-2xl font-bold">Live stress-free</h4>
+            <p class="text-gray-600 leading-relaxed text-lg">Bills split automatically. Reminders arrive on time. Everyone knows their share. You get back to enjoying life together.</p>
           </div>
         </div>
       </div>
@@ -213,21 +218,25 @@
     </section>
 
     <!-- Final CTA Section -->
-    <section class="w-full max-w-4xl mx-auto px-6 pb-32 text-center">
-      <div class="space-y-10">
-        <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+    <section class="relative w-full max-w-5xl mx-auto px-6 pb-40 text-center overflow-hidden">
+      <!-- Ambient background -->
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50/50 via-transparent to-transparent rounded-[3rem] -z-10"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gradient-to-br from-primary-100/40 to-transparent rounded-full blur-3xl -z-10"></div>
+      
+      <div class="space-y-12 relative">
+        <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.05] bg-gradient-to-br from-black via-gray-800 to-gray-600 bg-clip-text text-transparent">
           Start living stress-free today
         </h2>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Imagine coming home to a house where the bills are handled, everyone knows what they owe, and money never creates tension. That's not a dream. That's what happens when you use Homerun.
+        <p class="text-2xl md:text-3xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light">
+          Imagine coming home to a house where the bills are handled, everyone knows what they owe, and money never creates tension. <span class="text-black font-medium">That's not a dream. That's what happens when you use Homerun.</span>
         </p>
-        <div class="pt-6">
-          <Button>
+        <div class="pt-8 transform hover:scale-105 transition-transform duration-300">
+          <Button variant="primary">
             <Apple className="w-5 h-5" />
             <span class="text-base">Download for iOS</span>
           </Button>
         </div>
-        <p class="text-sm text-gray-500">Free forever. Set up in under 5 minutes.</p>
+        <p class="text-base text-gray-500 font-light">Free forever. Set up in under 5 minutes.</p>
       </div>
     </section>
 
