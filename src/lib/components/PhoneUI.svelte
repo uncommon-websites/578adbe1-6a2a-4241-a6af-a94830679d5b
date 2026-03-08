@@ -83,14 +83,25 @@
         <div class="space-y-2.5">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-2.5">
-              <div class="w-5 h-5 rounded bg-yellow-100 flex items-center justify-center text-[10px]">⚡</div>
+              <div class="w-5 h-5 rounded bg-yellow-100 flex items-center justify-center">
+                <svg class="w-3 h-3 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
               <span class="text-sm font-medium">Electricity</span>
             </div>
             <span class="text-xs text-gray-500 font-medium">Jan 20</span>
           </div>
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-2.5">
-              <div class="w-5 h-5 rounded bg-blue-100 flex items-center justify-center text-[10px]">📶</div>
+              <div class="w-5 h-5 rounded bg-blue-100 flex items-center justify-center">
+                <svg class="w-3 h-3 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                  <circle cx="12" cy="20" r="1" fill="currentColor"/>
+                </svg>
+              </div>
               <span class="text-sm font-medium">Internet</span>
             </div>
             <span class="text-xs text-gray-500 font-medium">Jan 25</span>
